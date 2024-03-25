@@ -3,7 +3,7 @@
 	"margin": "10px 10px 0 10px",
 
   "modules-left": ["hyprland/workspaces"],
-  "modules-center": ["clock#time", "clock#date"],
+  "modules-center": ["clock"],
   "modules-right": ["network", "wireplumber", "battery"],
 
   "include": ["$XDG_CONFIG_HOME/waybar/modules.json"]

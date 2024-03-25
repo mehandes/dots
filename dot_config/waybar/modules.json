@@ -3,14 +3,9 @@
  		"format": ""
   },
 	
-	"clock#time": {
-		"format": "{:%I:%M <small>%p</small>}",
+	"clock": {
+		"format": "{:%I:%M <small>%p</small>   %A, %b %d}",
 		"interval": 60
-	},
-
-	"clock#date": {
-		"format": "{:<span color='#b7bdf8'>%A</span>,  %b %d}",
-		"interval": 4200
 	},
 
 	"network": {
