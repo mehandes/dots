@@ -25,7 +25,7 @@
 	color: @mantle;
 }
 
-#battery {
-	margin: 0 10px;
+#battery, #wireplumber {
+	margin-right: 10px;
 }
 
