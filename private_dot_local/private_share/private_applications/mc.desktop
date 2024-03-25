@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=󱑾  Midnight Commander
+Comment=File manager
+Exec=mc
+Terminal=true
+
