@@ -1,0 +1,31 @@
+@import "macchiato.css";
+
+#waybar {
+	background-color: @crust;
+	color: @text;
+	font-family: "Ubuntu Nerd Font";
+	font-weight: 600;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+#workspaces,
+#clock,
+#network,
+#wireplumber,
+#battery {
+	padding: 5px;
+}
+
+#workspaces button.active {
+	color: @text;
+}
+
+#workspaces button.active:hover {
+	color: @mantle;
+}
+
+#battery {
+	margin: 0 10px;
+}
+

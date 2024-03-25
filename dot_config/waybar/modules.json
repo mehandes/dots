@@ -1,0 +1,51 @@
+{
+  "hyprland/workspaces": {
+ 		"format": ""
+  },
+	
+	"clock#time": {
+		"format": "{:%I:%M <small>%p</small>}",
+		"interval": 60
+	},
+
+	"clock#date": {
+		"format": "{:<span color='#b7bdf8'>%A</span>,  %b %d}",
+		"interval": 4200
+	},
+
+	"network": {
+		"format": "{icon}",
+		"format-ethernet": "󱘖",
+		"format-disconnected": "",
+		"format-icons": [
+			"󰤟",
+			"󰤢",
+			"󰤥",
+			"󰤨"
+		],
+  	"tooltip-format-wifi": "{essid} ({signalStrength}%): {ipaddr}",
+  	"tooltip-format-ethernet": "{ifname}: {ipaddr}"
+	},
+
+	"wireplumber": {
+		"format": "{icon}",
+		"format-icons": [
+			"",
+			"",
+			""
+		],
+		"tooltip-format": "{volume}%"
+	},
+
+	"battery": {
+		"format": "<span color='#ed8796'>{icon}</span>  {capacity}",
+		"format-icons": [
+			"    ",
+			"    ",
+			"    ",
+			"    ",
+			"    "
+		]
+	}
+}
+
